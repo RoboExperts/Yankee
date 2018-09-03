@@ -1,0 +1,63 @@
+.bar{z-index:100;margin:18px 0 1px;background:url(../medias/img/bg-bar.png) repeat;position:relative}
+
+#nav ul{padding:0;margin:0;list-style:none;float:left}
+#nav li{float:left; padding:0 2px;}
+#nav li img{background-color:#CCC; border-radius:100%;}
+
+#nav>ul>li.hover>a,#nav a:hover{text-decoration:none;padding-bottom:16px;}
+#nav a{
+	display: block;/*padding:35px 22px;*/
+	color: #FFF
+}
+#nav a:hover{
+	color: #aec433;
+}
+#nav .mark{background:url(../medias/img/divider.png) no-repeat 0 50%}
+#nav .mark a{color:#757575;letter-spacing:.07em}
+#nav .drop a{display:inline;padding:0}
+#nav .drop a:hover{border:0;padding:0}
+
+
+#nav .products-thumbnails ul{padding:0;margin:0 -29px;list-style:none;font-size:0;line-height:0;letter-spacing:-4px}
+#nav .products-thumbnails a:hover{border:0;padding:15px 15px 5px;}
+#nav .products-thumbnails a{padding:15px 5px 5px;display:block}
+.products-thumbnails li{cursor:pointer;letter-spacing:0;font-size:12px;line-height:14px;width:146px;display:inline-block;vertical-align:top;background:url(../medias/img/divider2.png) no-repeat 0 50%;height:142px;text-align:center}
+.products-thumbnails li.active .img-holder,.products-thumbnails li:hover .img-holder{opacity:1; }
+.products-thumbnails .img-holder img{vertical-align:middle;cursor:pointer}
+.products-thumbnails .img-holder img:hover {
+    border-radius: 500px;
+    box-shadow: 0 0 65px #999 inset, 0 0 20px #000 inset, 0 0 15px #000;
+    transform: scale(1.2);
+}
+
+
+
+.products-thumbnails .img-holder{cursor:pointer;line-height:74px;min-height:74px;padding:0 0 6px 4px;opacity:.58}
+#nav .products-thumbnails h2 span{display:block;color:#5d5d5d;font-size:11px;letter-spacing:0}
+#nav .products-thumbnails h2{cursor:pointer;color:#727272;letter-spacing:.01em;padding:0 0 0 2px;margin:0}
+#nav .products-thumbnails li.active h2 span,#nav .products-thumbnails li.active h2,#nav .products-thumbnails li:hover h2 span,#nav .products-thumbnails li:hover h2{color:#fff}
+.products-thumbnails h2{font:11px/13px 'Oswald',sans-serif;text-transform:uppercase;margin:0}
+#nav .drop-slide-wrapper{height:auto !important;width:100% !important; top:auto;}
+@-moz-document url-prefix() {#nav .drop-slide-wrapper{top:64px !important;}
+}
+.visual img{vertical-align:top;float:right;margin:0 -50px}
+.visual{background:url(../medias/img/bg-visual.jpg) repeat-x;overflow:hidden;position:relative}
+.visual h2 span{display:block;text-align:left;font-size:35px;font-weight:normal;line-height:35px;margin:0 0 -4px;letter-spacing:0}
+.visual h2{color:#fff;position:absolute;left:4.9%;margin:0;top:35.9%;width:384px;letter-spacing:.03em;text-align:right;font:bold 50px/50px 'Gotham-Bold',Arial,Helvetica,sans-serif}
+#nav .link-holder a:hover{text-decoration:none}
+#nav .link-holder a{float:none;text-transform:uppercase;color:#baac94;font:bold 13px/14px "Gotham-Bold",Arial,Helvetica,sans-serif}
+#nav .link-holder{  background-color: #1c1c1c;height:0px;padding:10px 0}
+
+@media only screen and (max-width:875px){.meta_title{font-size:11px;max-width:530px;white-space:nowrap;word-wrap:break-word;overflow-wrap:break-word;overflow:hidden}
+
+#nav a{padding:35px 11px;letter-spacing:-0.06em}
+.steps>li{font-size:11px;line-height:13px;height:24px;max-width:160px;padding:10px 7px}
+.product-block .col.img-holder{width:100% !important}
+
+}
+
+/*----------------19-FEB-2016----------------*/
+#nav .drop{position:absolute;left:-293%;top:-9999px;width:100%;opacity:1;z-index: -999;}
+.products-thumbnails{overflow:hidden;background-color: #1c1c1c; }
+#nav{font:bold 13px/20px Arial;text-transform:uppercase;float:left;width: 100%;margin-left: -30px; margin-top:15px; }
+#nav li.hover .drop{top:75px}

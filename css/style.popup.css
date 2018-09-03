@@ -1,0 +1,686 @@
+a{color:#FFF; text-decoration:none;}
+a:hover{color:#000; text-decoration:none;}
+img{border:0;}
+h1{
+	font-size: 18px;
+	font-weight: bold;
+	color: #990000;
+	text-align: left;
+	float: left;
+	margin: 5px 10px;
+}
+h2{
+	font-weight: normal;
+	font-size: 12px;
+	color: #333;
+	text-align: justify;
+	line-height: 20px;
+	margin: 5px 10px;
+}
+h3{text-decoration:none;}
+.wrapper{width:680px;  margin:0 auto;}
+body , ul ,li , article , section , h1 , h2 , h3 , label , nav , a{ padding:0; margin:0px;}
+body{
+	background-color: #000000;
+	font-size: 12px;
+	font-family: Arial;
+	text-decoration: none;
+	color: #FFF;
+	text-align: left;
+}
+label{padding:0; margin:0}
+.greenColor{
+	color: #FFFFFF;
+	font-size: 16px;
+}
+.popupBackground {
+	margin: 0px;
+	padding: 0px;
+	background-color: #999;
+}
+.clear{clear:both;}
+.popupH1 {
+	color: #FFF;
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: left;
+}
+.popupH2 {
+	font-family: Arial;
+	font-size: 12px;
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 20px;
+}
+.popupH3 {
+	font-family: Arial;
+	font-size: 16px;
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+.popupH4 {
+	font-family: Arial;
+	font-size: 18px;
+	color: #C00;
+	text-decoration: none;
+	font-weight: bold;
+}
+.blank {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+.popupMain {
+	margin: 0px;
+	padding: 0px;
+	width: 680px;
+}.popupColour {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 680px;
+}
+.popupFull {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 680px;
+}
+.popupGnrl {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 680px;
+}
+.popupTopFull {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 680px;
+	background-color: #FF0000;
+	height: 30px;
+}
+.popupTopText {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 600px;
+	font-family: Arial;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #FFF;
+	height: 30px;
+	text-align: left;
+}
+.popupTopClose {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 80px;
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #FFF;
+	height: 30px;
+}
+.popupTopClose a{
+	color: #fff;
+	text-decoration: none;
+}
+.popupTopClose a:hover{
+	color: #000;
+	text-decoration: underline;
+}
+.popupCenterFull {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 680px;
+}
+.popupCenterGnrl {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 680px;
+}
+.produTitleFull {
+	margin: 0px;
+	float: left;
+	height: 30px;
+	width: 500px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+.produTitleCenter {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 30px;
+	width: auto;
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #000;
+	background-image: url(../images/product-title-center.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+	text-align: center;
+}
+.produTitleLeftRightGnrl {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 30px;
+	width: 15px;
+}
+.titleRightPrice {
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 25px;
+	font-weight: bold;
+	margin: 0px;
+	float: right;
+	width: 120px;
+	color: #FF0000;
+	text-align: center;
+	padding: 10px;
+}
+.ingredientFull {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 340px;
+}
+
+.ingredientGnrl {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 340px;
+}
+.ingSandwichFull {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 340px; height:120px; overflow:hidden;
+}
+.ingSandwichGnrl {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100px;
+	color: #333;
+	text-align: left;
+}
+.ingSandwichGnrl input{width:20px; height:20px; float:left;}
+.ingSandwichGnrl .pizzaTypes{width:70px; height:20px; float:left; line-height:20px;}
+.tab {
+	font-family: Arial;
+	font-size: 20px;
+	line-height: 40px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 40px;
+	width: 40px;
+	background-color: #FF0000;
+	}
+.tabTitle {
+	font-family: Arial;
+	font-size: 18px;
+	line-height: 40px;
+	font-weight: bold;
+	color: #baff00;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 40px;
+	width: 300px;
+}
+.tabIngrediant {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 260px;
+	height: 30px;
+	background-image: url(../images/ingrediant-bg.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+.popupvaliderMainDiv {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 30px;
+	width: 680px;
+	background-image: url(../images/popup-valider-buttons-bg.jpg);
+	background-repeat: repeat-x;
+	text-align: center;
+}
+.popupvaliderQuantity {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 400px;
+}
+.popupMinusButton {
+	margin: 0px;
+	float: left;
+	width: 30px;
+	padding: 0px;
+	height: 30px;
+}
+.popupQuantityBox {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 50px;
+	height: 30px;
+}
+.popupAjouterButton {
+	margin: 0px;
+	float: right;
+	width: 110px;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.popupvaliderButton {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	width: 256px;
+}
+.ajouter {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 110px;
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #FFF;
+	height: 30px;
+	background-image: url(../images/ajouter-active.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.ajouter a{
+	color: #FFF;
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 30px;
+	width: 110px;
+}
+.ajouter a:hover{
+	color: #FFF;
+	text-decoration: underline;
+	background-image: url(../images/ajouter-hover.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 30px;
+	width: 110px;
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: bold;
+}
+.tailleMain {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 500px;
+}
+.tailleFull {
+	background-color: #CCC;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 500px;
+}
+.tailleGnrl {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 500px;
+}
+.tailleTitle {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 125px;
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #FFF;
+	height: 30px;
+	background-image: url(../images/taille-title-bg.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.menuDetailPic {
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 300px;
+}
+.burgerTitleFull {
+	text-decoration: none;
+	background-image: url(../images/ingrediant-bg.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+	height: 30px;
+	width: 400px;
+	float: left;
+}
+.burgerTitle {
+	font-family: Arial;
+	font-size: 20px;
+	color: #FF0000;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: left;
+	line-height: 30px;
+	height: 30px;
+	width: 290px;
+	float: left;
+}
+.price {
+	margin: 0px;
+	float: right;
+	width: 90px;
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFF;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	text-align: right;
+}
+.menuDetailFull {
+	text-decoration: none;
+	margin: 0px auto;
+	padding: 0px;
+	float: left;
+	width: 340px;
+}
+.menuDetailGnrl {
+	text-decoration: none;
+	margin:0;
+	padding: 0px;
+	float: left;
+	width: 400px;
+}
+.popUpForm{width:340px; margin:0 auto; float:left;}
+.popUpFormGr{width:340px; margin:5px auto;}
+.popUpFormGr label{
+	color: #333;
+	float: left;
+	line-height: 25px;
+}
+.popUpFormGr select{float:right; margin:3px auto;}
+
+.popUpPizzaDetail{width:680px; margin:0 auto 80px auto;}
+.popUpPizzaDtLeft{width:340px; float:left; margin:0 0 0 0;}
+.pizzaTab{width:40px; height:40px; float:left; font-size:16px; font-weight:bold;}
+.tabTitle{
+	width: 280px;
+	height: 40px;
+	line-height: 40px;
+	color: #FF0000;
+	text-align: left;
+	margin-left: 20px;
+}
+.pizzaIngLeft{width:150px; height:30px; line-height:30px; text-align:left; float:left; color:#FFF; margin-left:20px;}
+.pizzaIngRight{width:150px; height:30px; line-height:30px; text-align:left; float:left; color:#FFF; margin-left:20px;}
+.ingredientGnrl input{width:30px; height:20px; float:left; margin-left:20px;}
+.ingredientGnrl .pizzatypes{
+	width: 130px;
+	height: 20px;
+	float: left;
+	text-align: left;
+	line-height: 20px;
+	color: #333;
+}
+.ingredientGnrl .pizzaPrice{
+	width: 130px;
+	height: 20px;
+	float: left;
+	text-align: left;
+	line-height: 20px;
+	color: #333;
+}
+.pizzaPanelFull{width:190px; float:left; margin:0 18px;}
+.pizzaPanelGernal{width:190px; float:left;}
+.pizzaPanelTitle{
+	width: 190px;
+	height: 40px;
+	background-color: #6c2300;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 40px;
+	text-transform: uppercase;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 16px;
+}
+.pizzaPanelGernal input{width:20px; height:20px; float:left; margin-left:20px;}
+.pizzaPanelGernal .types{
+	width: 100px;
+	height: 30px;
+	float: left;
+	color: #333;
+	line-height: 26px;
+	text-align: left;
+	margin-left: 10px;
+}
+.popPizzaline{width:680px; height:1px; background-color:#FFF; float:left;}
+
+.btFull{
+	width: 240px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 50px;
+}
+.button-modifier{width:100px; height:25px; float:right;  margin-top:3px; margin-right:20px;}
+.button-modifier a{width:100px; height:25px; float:right; background:url(../images/button-modifier.png) top center;}
+.button-modifier a:hover{width:100px; height:25px; float:right; background:url(../images/button-modifier.png) bottom center;}
+
+.button-confirmer{width:100px; height:25px; float:right;  margin-top:3px; margin-right:20px;}
+.button-confirmer a{width:100px; height:25px; float:right; background:url(../images/button-confirmer.png) top center;}
+.button-confirmer a:hover{width:100px; height:25px; float:right; background:url(../images/button-confirmer.png) bottom center;}
+
+.line{width:100%; height:1px; background-color:#FFF; float:left;}
+
+.button-valider{width:120px; height:30px; float:left; margin-left:10px;}
+.button-valider a{width:120px; height:30px; float:left; background:url(../images/button-valider.png) top center;}
+.button-valider a:hover{width:120px; height:30px; float:left; background:url(../images/button-valider.png) bottom center;}
+
+
+.button-valider-blue{width:120px; height:30px; float:left; margin-left:10px;}
+.button-valider-blue a{width:120px; height:30px; float:left; background:url(../images/button-valider-blue.png) top center;}
+.button-valider-blue a:hover{width:120px; height:30px; float:left; background:url(../images/button-valider-blue.png) bottom center;}
+
+.button-valider-green{width:120px; height:30px; float:left; margin-left:10px;}
+.button-valider-green a{width:120px; height:30px; float:left; background:url(../images/button-valider-green.png) top center;}
+.button-valider-green a:hover{width:120px; height:30px; float:left; background:url(../images/button-valider-green.png) bottom center;}
+
+.button-valider-brown{width:120px; height:30px; float:left; margin-left:10px;}
+.button-valider-brown a{width:120px; height:30px; float:left; background:url(../images/button-valider-brown.png) top center;}
+.button-valider-brown a:hover{width:120px; height:30px; float:left; background:url(../images/button-valider-brown.png) bottom center;}
+
+.button-valider-red{width:120px; height:30px; float:left; margin-left:10px;}
+.button-valider-red a{width:120px; height:30px; float:left; background:url(../images/button-valider-red.png) top center;}
+.button-valider-red a:hover{width:120px; height:30px; float:left; background:url(../images/button-valider-red.png) bottom center;}
+
+.button-valider-purpal{width:120px; height:30px; float:left; margin-left:10px;}
+.button-valider-purpal a{width:120px; height:30px; float:left; background:url(../images/button-valider-purpal.png) top center;}
+.button-valider-purpal a:hover{width:120px; height:30px; float:left; background:url(../images/button-valider-purpal.png) bottom center;}
+
+.button-valider-yellow{width:120px; height:30px; float:left; margin-left:10px;}
+.button-valider-yellow a{width:120px; height:30px; float:left; background:url(../images/button-valider-yellow.png) top center;}
+.button-valider-yellow a:hover{width:120px; height:30px; float:left; background:url(../images/button-valider-yellow.png) bottom center;}
+
+.button-valider-darkpink{width:120px; height:30px; float:left; margin-left:10px;}
+.button-valider-darkpink a{width:120px; height:30px; float:left; background:url(../images/button-valider-darkpink.png) top center;}
+.button-valider-darkpink a:hover{width:120px; height:30px; float:left; background:url(../images/button-valider-darkpink.png) bottom center;}
+
+
+
+
+
+
+
+
+.introLeft{width:320px; float:left; background-color:#666; border-radius:20px; height:300px; margin:30px 0 30px 10px; text-align:left; line-height:20px; color:#FFF}
+.introRight{width:320px; float:right; background-color:#666; border-radius:20px; height:300px; margin:30px 10px 0 0; }
+.heading{font-size:18px; line-height:30px; float:left; text-decoration:none;  padding:0 0 0 10px; margin:15px 0 0 0; color:#FFF;}
+.introRtBox{width:300px; height:60px; margin:8px auto; background-color:#333; border-radius:10px;}
+.introRtBox input{width:30px; height:30px; margin:15px 10px; float:left;}
+.introRtBox .title{width:150px; height:30px; margin:15px 0; float:left; font-size:22px; text-align:center; line-height:30px; color:#FFF;}
+.introIcon{float:right; margin:4px 15px 0 0;}
+.introIcon img{width:70px; height:50px; float:right;}
+
+
+
+.timing{
+	width: 400px;
+	height: 230px;
+	margin: 30px auto 0 auto;
+	background-color: #FFFFFF;
+	padding: 20px;
+}
+.timing .commande{
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	color: #FF0000;
+	margin: 10px auto;
+}
+.timing .inputFull{width:200px; float:left; margin-bottom:20px;}
+.inputGernal{width:200px; float:left;}
+.inputGernal label{width:90px; float:left; text-align:right; margin-right:10px; font-size:14px; line-height:20px; margin-bottom:10px;}
+.inputGernal select{width:100px; float:right;}
+.IngredientDivider {
+	float: left;
+	height: 100px;
+	width: 1px;
+	background-color: #000;
+}
+.ProductNamePageTitle {
+	background-color: #c300de;
+	float: left;
+	height: 40px;
+	width: 200px;
+	margin-left: 20px;
+	border-radius: 5px 5px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	line-height: 40px;
+	text-align: center;
+	color: #FFF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.TextLabel {
+	float: left;
+	width: 165px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 25px;
+	font-weight: normal;
+	color: #FFF;
+	text-align: left;
+}
+.TextInput {
+	float: right;
+	width: 175px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: normal;
+	color: #FFF;
+	text-align: left;
+}
+.ingredientsDetailsFullDiv{
+	width: 190px;
+	float: left;
+	margin-bottom: 10px;
+}
+.ingredientsDetailsGenDiv{
+	width: 190px;
+	float: left;
+	border-radius: 5px 5px;
+}
+.inputCheckBox {
+	float: left;
+	width: 15px;
+	height: 25px;
+	text-align: left;
+	margin-right: 0px;
+	margin-left: 0px;
+	line-height: 20px;
+}
+.inputTextDetailBox {
+	float: left;
+	width: 100px;
+	text-align: left;
+	margin-left: 10px;
+	color: #333;
+	line-height: 20px;
+}
+.inputIngredientPriceBox {
+	float: left;
+	width: 35px;
+	text-align: right;
+	margin-left: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	line-height: 20px;
+}
+.menuTitleLarge {
+	width: 100%;
+	line-height: 40px;
+	margin: 20px auto;
+	display: inline-block;
+	font-family: Arial;
+	font-size: 20px;
+	color: #A0A0A0;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+}
+.menu-valider{width:120px; height:30px; margin:20px auto; display:inline-block;}
+.menu-valider a{width:120px; height:30px; float:left; background:url(../images/button-valider.png) top center;}
+.menu-valider a:hover{width:120px; height:30px; float:left; background:url(../images/button-valider.png) bottom center;}
